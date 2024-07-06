@@ -1,0 +1,96 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    border-radius: 10px;
+    padding: 2px;
+    position: absolute;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 16px 20px;
+    font-family: Teko;
+    color: white;
+}
+
+.comment_hiden {
+    display: none;
+}
+
+.comment_LORENZO {
+    top: 125px;
+    max-width: 288px;
+    box-sizing: border-box;
+    left: 1006px;
+}
+
+.comment_ADALINA {
+    top: 286px;
+    max-width: 288px;
+    box-sizing: border-box;
+    left: 894px;
+}
+
+.comment_ALEXANDER {
+    top: 448px;
+    max-width: 288px;
+    box-sizing: border-box;
+    left: 1010px;
+}
+
+.comment_RUSHANA {
+    top: 610px;
+    max-width: 288px;
+    box-sizing: border-box;
+    left: 895px;
+}
+
+.comment::before {
+    position: absolute;
+    content: '';
+    inset: 0px;
+    padding: 1px;
+    border-radius: 20px;
+    background: linear-gradient(#74AEAA 19%, #7C6FCF 99%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    opacity: 0.3;
+}
+
+
+.comment__user-container {
+    display: flex;
+    gap: 20px;
+}
+
+.comment__user-image {
+    max-width: 125px;
+    max-height: 48px;
+}
+
+.comment__user-info {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.comment__user-name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.comment__user-mail {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.comment__massage {
+    margin: 16px 0 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20.7px;
+}

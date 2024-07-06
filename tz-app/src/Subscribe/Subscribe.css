@@ -1,0 +1,189 @@
+.subscribe {
+    font-family: Teko;
+}
+
+@media screen and (max-width: 420px) {
+    .subscribe {
+        top: -613px;
+    }
+}
+
+.subscribe__title {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    color: white;
+    margin-bottom: 88px;
+}
+
+@media screen and (max-width: 420px) {
+    .subscribe__title {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 32px;
+        text-align: center;
+        max-width: 204px;
+        margin: auto;
+        margin-bottom: 32px;
+    }
+}
+
+.subscribe__statistician-container {
+    display: flex;
+    gap: 126px;
+}
+
+@media screen and (max-width: 420px) {
+    .subscribe__statistician-container {
+        gap: 48px;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+.subscribe__statistic {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe__statistic-info {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: white;
+}
+
+@media screen and (max-width: 420px) {
+    .subscribe__statistic-info {
+        font-size: 28px;
+        line-height: 28px;
+    }
+}
+
+
+.subscribe__statistic-name {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 420px) {
+    .subscribe__statistic-name {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+.subscribe__button {
+    font-family: Teko;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+    background: linear-gradient(45deg, #7C6FCF 0%, #74AEAA 43%, #6FCF97 100%);
+    width: 532px;
+    color: #1C1A1A;
+    border: none;
+    border-radius: 15px;
+    padding: 14px 0;
+    margin-top: 101px;
+    margin-bottom: 76px;
+}
+
+@media screen and (max-width: 420px) {
+    .subscribe__button {
+        display: block;
+        max-width: 288px;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 12px 0;
+        margin: 29px auto 18px;
+    }
+}
+
+
+.subscribe__sources {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 420px) {
+    .subscribe__sources {
+        margin: auto;
+        width: fit-content;
+    }
+}
+
+.subscribe__download {
+    box-sizing: border-box;
+    width: 132px;
+    display: flex;
+    padding: 8px 0px 8px 13px;
+    background-color: #302D2D;
+    color: white;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 420px) {
+    .subscribe__download {
+        max-width: 100px;
+        padding: 4px 0px 4px 8px;
+    }
+}
+
+.subscribe__download-image {
+    margin-right: 7px;
+}
+
+@media screen and (max-width: 420px) {
+    .subscribe__download-image {
+        margin-right: 8px;
+        align-self: center;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.subscribe__download-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Font
+Teko
+Weight
+400
+Size
+12px
+Line height
+12px */
+.subscribe__download-title {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+@media screen and (max-width: 420px) {
+    .subscribe__download-title {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+    }
+}
+
+.subscribe__download-store {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 420px) {
+    .subscribe__download-store {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+}

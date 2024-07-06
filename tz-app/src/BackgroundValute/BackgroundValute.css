@@ -1,0 +1,47 @@
+.background-valute {
+    position: absolute;
+    z-index: -1;
+}
+
+@media screen and (max-width: 420px) {
+    .background-valute {
+        max-width: 170px;
+        max-height: 210px;
+    }
+}
+
+.background-valute_bitcoin {
+    top: -47px;
+    left: 1003px;
+}
+
+@media screen and (max-width: 420px) {
+    .background-valute_bitcoin {
+        top: -323px;
+        left: 133px;
+    }
+}
+
+.background-valute_litecoin {
+    top: 227px;
+    left: 786px;
+}
+
+@media screen and (max-width: 420px) {
+    .background-valute_litecoin {
+        top: -456px;
+        left: -21px;
+    }
+}
+
+.background-valute_ethereum {
+    top: 458px;
+    left: 1003px;
+}
+
+@media screen and (max-width: 420px) {
+    .background-valute_ethereum {
+        top: -495px;
+        left: 141px;    
+    }
+}
