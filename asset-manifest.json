@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Tz-hr1_1hr/static/css/main.998aa28a.css",
-    "main.js": "/Tz-hr1_1hr/static/js/main.65531f1d.js",
+    "main.js": "/Tz-hr1_1hr/static/js/main.0644d1dd.js",
     "static/js/453.5ac3f4b0.chunk.js": "/Tz-hr1_1hr/static/js/453.5ac3f4b0.chunk.js",
     "static/media/Teko-SemiBold.woff2": "/Tz-hr1_1hr/static/media/Teko-SemiBold.c9b479a738ea5e1459c2.woff2",
     "static/media/Teko-Medium.woff2": "/Tz-hr1_1hr/static/media/Teko-Medium.c7e2723c0bac3a38d02a.woff2",
@@ -18,11 +18,11 @@
     "index.html": "/Tz-hr1_1hr/index.html",
     "static/media/google.svg": "/Tz-hr1_1hr/static/media/google.e1005cc523c6fb776fd4c86b2a1ac7df.svg",
     "main.998aa28a.css.map": "/Tz-hr1_1hr/static/css/main.998aa28a.css.map",
-    "main.65531f1d.js.map": "/Tz-hr1_1hr/static/js/main.65531f1d.js.map",
+    "main.0644d1dd.js.map": "/Tz-hr1_1hr/static/js/main.0644d1dd.js.map",
     "453.5ac3f4b0.chunk.js.map": "/Tz-hr1_1hr/static/js/453.5ac3f4b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.998aa28a.css",
-    "static/js/main.65531f1d.js"
+    "static/js/main.0644d1dd.js"
   ]
 }
