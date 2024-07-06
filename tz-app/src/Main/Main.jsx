@@ -13,7 +13,7 @@ import { useEffect, useLayoutEffect, useState } from 'react';
 
 function Main() {
     const [hidenComment, setHidenComment] = useState(false);
-    
+
     useLayoutEffect(() => {
         const resizeHandler = () => {
             if (window.innerWidth > 420) {
@@ -23,10 +23,11 @@ function Main() {
             else {
                 setHidenComment(true)
             }
+           
         };
-        resizeHandler()
         window.addEventListener('resize', resizeHandler);
-       
+        resizeHandler()
+        return () => window.removeEventListener('resize', resizeHandler);
     }, [])
 
     return (
