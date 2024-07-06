@@ -16,8 +16,6 @@ function Main() {
     
     useLayoutEffect(() => {
         const resizeHandler = () => {
-            console.log(window.innerWidth)
-            console.log(hidenComment)
             if (window.innerWidth > 420) {
                 setHidenComment(false)
                 return
