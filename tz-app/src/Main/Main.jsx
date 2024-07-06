@@ -9,23 +9,26 @@ import LorenzoImg from '../images/LORENZO.png';
 import ADALINAImg from '../images/ALDALINA.png';
 import ALEXANDERImg from '../images/ALEXANDER.png';
 import RUSHANAImg from '../images/RUSHANA.png';
-import { useEffect, useState } from 'react';
+import { useEffect, useLayoutEffect, useState } from 'react';
 
 function Main() {
     const [hidenComment, setHidenComment] = useState(false);
-
-    useEffect(() => {
+    
+    useLayoutEffect(() => {
         const resizeHandler = () => {
-            
+            console.log(window.innerWidth)
+            console.log(hidenComment)
             if (window.innerWidth > 420) {
                 setHidenComment(false)
                 return
             }
-            console.log(hidenComment)
-            setHidenComment(true)
+            else {
+                setHidenComment(true)
+            }
         };
+        resizeHandler()
         window.addEventListener('resize', resizeHandler);
-       return () => window.removeEventListener('resize', resizeHandler);
+       
     }, [])
 
     return (
